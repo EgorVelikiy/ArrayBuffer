@@ -5,6 +5,7 @@ export default class ArrayBufferConverter  {
 
     load(buffer) {
         this.buffer = getBuffer(buffer);
+        console.log(this.buffer)
     }
 
     toString() {
