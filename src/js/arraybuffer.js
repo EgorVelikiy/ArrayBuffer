@@ -1,7 +1,7 @@
 import getBuffer from './func'
 
 
-export default class ArrayBuffer {
+export default class ArrayBufferConverter  {
 
     load(buffer) {
         this.buffer = getBuffer(buffer);
